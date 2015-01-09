@@ -109,16 +109,20 @@ By now, we have figured out a direct but kind of "stupid way" to solve the probl
 We then rewrite the `FenceMatrix()` function as below:
 ```Matlab
 function [X idx] = FenceMatrix(n)
-    n = input('Please enter the matrix order(must be odd):');
-    
-    while mod(n, 2) == 0
-        n = input('INVALID INPUT, ENTER THE ORDER AGAIN:');
+    if mod(n, 2) == 0
+        error('WARNING: The matrix order must be odd, please try again!')
     end
     
     if n == 1
         X = 1;
         idx = 0;
     else
-        [X idx] = FenceMatrix()
+        [x idx] = FenceMatrix(n-2);
+        X = [idx*ones(1,n); idx*ones(n-2,1) x idx*ones(n-2,1); idx*ones(1,n)];
+        idx = ~ idx;
+    end
+end
+    
+    
 ```
 
