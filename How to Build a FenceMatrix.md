@@ -64,3 +64,17 @@ ans =
      0     1     1     1     1     1     0
      0     0     0     0     0     0     0
 ```
+The solution or function above also can be transplanted to the platform of Python.
+This is the Python version of `FenceMatrix()`:
+```Python
+import numpy as np
+
+def FenceMatrix():
+    n = input('Enter the matrix order(must be odd):')
+    while n%2 == 0
+        n = input('INVALID INPUT, ENTER AGAIN:')
+    
+    X = np.zeros((n, n))
+    if n == 1:
+        return np.ones(1)
+    elif ()
