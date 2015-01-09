@@ -17,10 +17,10 @@ I have found lots of interesting problems and always try to figure out the right
     1|0|0|0|1
     1|1|1|1|1
     
-* The unique solution to the Number Equation
+* The unique solution to the Number Equation (UNDO)
 
 	         c|
 	         ---|
 
-	A|B|=|D|E|F|*|G|H|I|J 
+	A|B<><sup>C</sup>|=|D|E|F|*|G|H|I|J 
 	---|---|---|---|---|---|---|---|---|---|---
