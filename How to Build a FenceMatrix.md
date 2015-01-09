@@ -64,7 +64,8 @@ ans =
      0     1     1     1     1     1     0
      0     0     0     0     0     0     0
 ```
-The solution or function above also can be transplanted to the platform of Python.
+The solution or function above also can be transplanted to the platform of _**Python**_.
+
 This is the Python version of `FenceMatrix()`:
 ```Python
 import numpy as np
