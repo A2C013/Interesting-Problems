@@ -122,7 +122,25 @@ function [X idx] = FenceMatrix(n)
         idx = ~ idx;
     end
 end
+```
+And the corresponding Python version of `FenceMatrix(n)` is:
+```Python
+def FenceMatrix(n):
+    import numpy as np
     
+    if n%2 == 0:
+        return 'WARNING: The matrix order must be odd, please try again!'
     
+    if n == 1:
+        X = np.ones([1,1])
+        idx = 0
+        return X, idx
+    else:
+        X, idx = FenceMatrix(n-2)
+        idx = not X[0]
+        temp = np.hstack((idx*np.ones([n-2,1]), X, idx*np.ones([n-2,1])))
+        X = np.vstack((idx*np.ones([1,n]), temp, idx*np.ones([1,n])))
+        idx = not idx
+    return X, idx
 ```
 
