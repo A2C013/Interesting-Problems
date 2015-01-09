@@ -49,6 +49,7 @@ function X = FenceMatrix()
         end
     end
 ```
+```MATLAB
 >> FenceMatrix()
 Please enter the matrix order(must be odd)12
 INVALID INPUT, ENTER THE ORDER AGAIN:7
@@ -62,3 +63,4 @@ ans =
      0     1     0     0     0     1     0
      0     1     1     1     1     1     0
      0     0     0     0     0     0     0
+```
