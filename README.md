@@ -20,6 +20,6 @@ I have found lots of interesting problems and always try to figure out the right
 * The unique solution to the Number Equation
 
 		c|
-		---
+		---|
 	a|b
 	---|---
