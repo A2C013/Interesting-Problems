@@ -104,4 +104,7 @@ array([[ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.],
        [ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.]])
 
 ```
+By now, we have figured out a direct but kind of "stupid way" to solve the problem. Considering the fence matrix's structural features, a _**recursive function**_ may be a good choice.
+
+We then rewrite the `FenceMatrix()` function as below:
 
