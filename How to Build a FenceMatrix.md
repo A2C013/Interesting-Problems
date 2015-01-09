@@ -24,3 +24,28 @@ The 1, 3 and 5 oder fence matrixes is presented below:
     1|1|1|1|1
 
 So comes the question: _**How to build a fence matrix with a given order (odd number)?**_
+
+Here is the code which can create or build such a matrix on the platform of MATLAB:
+```Matlab
+function X = FenceMatrix()
+    n = input('Please enter the matrix order(must be odd):');
+    
+    while mod(n, 2) == 0
+        n = input('INVALID INPUT, ENTER THE ORDER AGAIN:');
+    end
+        
+    X = zeros(n);
+    if n == 1
+        X = ones(1);
+    elseif mod((n+1)/2,2) == 0
+        for i = 2:2:(n+1)/2
+            X([i,n+1-i], i:n+1-i) = 1;
+            X(i:n+1-i, [i,n+1-i]) = 1;
+        end
+    else
+        for i = 1:2:(n+1)/2
+            X([i,n+1-i], i:n+1-i) = 1;
+            X(i:n+1-i, [i,n+1-i]) = 1;
+        end
+    end
+```
