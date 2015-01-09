@@ -87,6 +87,9 @@ def FenceMatrix():
     		X[[i,-i-1], i:n-i] = 1
     		X[i:n-i, [i,-i-1]] = 1
     return X
+```
+```IPython
 In [xx]: FenceMatrix()
 Enter he matrix order(must be odd):9
+```
 
