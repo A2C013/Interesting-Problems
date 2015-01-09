@@ -7,3 +7,10 @@ I have found lots of interesting problems and always try to figure out the right
 
 * [Google Billboard Puzzle](https://github.com/Arattheft-Yellow/Reading-Notes/blob/master/Google%20Billboard%20Puzzle.md)
 * [How to Build a FenceMatrix](https://github.com/Arattheft-Yellow/Reading-Notes/blob/master/How%20to%20Build%20a%20FenceMatrix.md)
+
+	1|1|1|1|1
+	---|---|---|---|---
+    1|0|0|0|1
+    1|0|1|0|1
+    1|0|0|0|1
+    1|1|1|1|1
