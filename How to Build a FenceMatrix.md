@@ -72,7 +72,7 @@ import numpy as np
 
 def FenceMatrix():
     n = input('Enter the matrix order(must be odd):')
-    while n%2 == 0
+    while n%2 == 0:
         n = input('INVALID INPUT, ENTER AGAIN:')
     
     X = np.zeros((n, n))
@@ -89,8 +89,19 @@ def FenceMatrix():
     		X[i:n-i, [i,-i-1]] = 1
     return X
 ```
-```IPython
+```Python
 In [xx]: FenceMatrix()
 Enter he matrix order(must be odd):9
+Out[xx]:
+array([[ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.],
+       [ 1.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  1.],
+       [ 1.,  0.,  1.,  1.,  1.,  1.,  1.,  0.,  1.],
+       [ 1.,  0.,  1.,  0.,  0.,  0.,  1.,  0.,  1.],
+       [ 1.,  0.,  1.,  0.,  1.,  0.,  1.,  0.,  1.],
+       [ 1.,  0.,  1.,  0.,  0.,  0.,  1.,  0.,  1.],
+       [ 1.,  0.,  1.,  1.,  1.,  1.,  1.,  0.,  1.],
+       [ 1.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  1.],
+       [ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.]])
+
 ```
 
