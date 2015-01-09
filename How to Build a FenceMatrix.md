@@ -4,6 +4,10 @@ A fence matrix is a _square matrix_ consisted of 0 and 1 with an _**odd**_ order
 
 The 1, 3 and 5 oder fence matrixes is presented below:
 * 1 order 
-    1|
--------|
+    [1]
+* 3 order
+ 0|0|0
+ --|--|--
+0|1|0
+0|0|0
 
