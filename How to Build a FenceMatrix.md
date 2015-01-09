@@ -77,4 +77,16 @@ def FenceMatrix():
     X = np.zeros((n, n))
     if n == 1:
         return np.ones(1)
-    elif ()
+    elif (n+1)/2%2 == 0:
+    	for i in range(1, (n+1)/2+1, 2):
+    		X[[i,-i-1], i:-i] = 1
+    		X[i:-i, [i,-i-1]] = 1
+    		
+    else:
+    	for i in range(0, (n+1)/2+1, 2):
+    		X[[i,-i-1], i:n-i] = 1
+    		X[i:n-i, [i,-i-1]] = 1
+    return X
+In [xx]: FenceMatrix()
+Enter he matrix order(must be odd):9
+
