@@ -10,7 +10,7 @@ The 1, 3 and 5 oder fence matrixes is presented below:
 * 3 order
 
     0|0|0
-    -|-|-
+    --|-|-
     0|1|0
     0|0|0
 
