@@ -25,7 +25,7 @@ The 1, 3 and 5 oder fence matrixes is presented below:
 
 So comes the question: _**How to build a fence matrix with a given order (odd number)?**_
 
-Here is the code which can create or build such a matrix on the platform of **_MATLAB_**:
+Here is the code which can create or build such a matrix on the platform of **MATLAB**:
 ```Matlab
 function X = FenceMatrix()
     n = input('Please enter the matrix order(must be odd):');
@@ -64,7 +64,7 @@ ans =
      0     1     1     1     1     1     0
      0     0     0     0     0     0     0
 ```
-The solution or function above also can be transplanted to the platform of _**Python**_.
+The solution or function above also can be transplanted to the platform of **Python**.
 
 This is the Python version of `FenceMatrix()`:
 ```Python
@@ -104,7 +104,7 @@ array([[ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.],
        [ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.]])
 
 ```
-By now, we have figured out a direct but kind of "stupid way" to solve the problem. Considering the fence matrix's structural features, a _**recursive function**_ may be a good choice.
+By now, we have figured out a direct but kind of "stupid way" to solve the problem. Considering the fence matrix's structural features, a _recursive function_ may be a good choice.
 
 We then rewrite the `FenceMatrix()` function as below:
 
