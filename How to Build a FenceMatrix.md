@@ -148,7 +148,6 @@ def FenceMatrix(n):
         return X, idx
     else:
         X, idx = FenceMatrix(n-2)
-        idx = not X[0]
         temp = np.hstack((idx*np.ones([n-2,1]), X, idx*np.ones([n-2,1])))
         X = np.vstack((idx*np.ones([1,n]), temp, idx*np.ones([1,n])))
         idx = not idx
