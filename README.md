@@ -13,6 +13,6 @@ I have found lots of interesting problems and always try to figure out the right
 	1|1|1|1|1
 	---|---|---|---|---
     1|0|0|0|1
-    1|0|1|0|1
+    1|0|1|0|1 
     1|0|0|0|1
     1|1|1|1|1
