@@ -104,7 +104,21 @@ array([[ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.],
        [ 1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.]])
 
 ```
-By now, we have figured out a direct but kind of "stupid way" to solve the problem. Considering the fence matrix's structural features, a _recursive function_ may be a good choice.
+By now, we have figured out a direct but kind of "stupid way" to solve the problem. Considering the fence matrix's structural features, a _**recursive function**_ may be a good choice.
 
 We then rewrite the `FenceMatrix()` function as below:
+```Matlab
+function [X idx] = FenceMatrix(n)
+    n = input('Please enter the matrix order(must be odd):');
+    
+    while mod(n, 2) == 0
+        n = input('INVALID INPUT, ENTER THE ORDER AGAIN:');
+    end
+    
+    if n == 1
+        X = 1;
+        idx = 0;
+    else
+        [X idx] = FenceMatrix()
+```
 
