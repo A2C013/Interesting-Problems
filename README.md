@@ -1,10 +1,3 @@
-<head>
-
-    <script type="text/javascript"
-            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-\\[AB\\]
-</head>
 
 # Reading-Notes
 Here is a repository to record my ideas about the interesting problems I once encountered.
@@ -27,7 +20,7 @@ I have found lots of interesting problems and always try to figure out the right
     
 * The unique solution to the Number Equation (UNDO)
 
-	(\\(A\\)|B)<sup>C</sup>|=|(D|E|F)|*|(G|H|I|J) 
+	(A|B)<sup>C</sup>|=|(D|E|F)|*|(G|H|I|J) 
 	---|---|---|---|---|---|---|---|---|---|---
 	
 
