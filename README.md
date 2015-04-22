@@ -18,9 +18,11 @@ I have found lots of interesting problems and always try to figure out the right
     1|0|0|0|1
     1|1|1|1|1
     
-* The unique solution to the Number Equation (UNDO)
+* The unique solution to the Number Equation (to be completed......)
 
 	(A|B)<sup>C</sup>|=|(D|E|F)|*|(G|H|I|J) 
 	---|---|---|---|---|---|---|---|---|---|---
+	
+* How to generate n random series with the covariance matrix $\SIGMA$
 	
 
