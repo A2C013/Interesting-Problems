@@ -1,3 +1,4 @@
+#The unique solution to a number equation
 Now suppose we have such a number equation:
                                         AB^C = DEF*GHIJ
 ```Python
