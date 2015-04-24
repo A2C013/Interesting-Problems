@@ -17,7 +17,7 @@ I have found lots of interesting problems and always try to figure out the right
     1|0|0|0|1
     1|1|1|1|1
     
-* The unique solution to the Number Equation (to be completed......)
+* [The unique solution to the Number Equation](https://github.com/Arattheft-Yellow/Reading-Notes/blob/master/The%20unique%20solution%20to%20the%20Number%20Equation.md)
 
 	(A|B)<sup>C</sup>|=|(D|E|F)|*|(G|H|I|J) 
 	---|---|---|---|---|---|---|---|---|---|---
