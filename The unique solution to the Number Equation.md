@@ -1,3 +1,5 @@
+Now suppose we have such a number equation:
+                                        AB^C = DEF*GHIJ
 ```Python
 import itertools
 import numpy as np
