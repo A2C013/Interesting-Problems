@@ -1,7 +1,7 @@
 #The unique solution to a number equation
 Now suppose we have such a number equation:
-
                                         AB^C = DEF*GHIJ
+where all the LETTERS are in range(10), which means the number list `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`
 ```Python
 import itertools
 import numpy as np
