@@ -56,3 +56,8 @@ for result in RESULTS:
 print('\n', 'TIME DURATION: %.2f seconds'.rjust(65, ' ') % TIME_DURATION)
 
 
+================   1 SOLUTIONS TO THE EQUATION   =============== 
+
+                         84**3 == 576*1029                         
+
+                                       TIME DURATION: 67.21 seconds
