@@ -3,7 +3,7 @@ Now suppose we have such a number equation:
                                         AB^C = DEF*GHIJ
 where all the LETTERS are in `range(10)`, which means the number list `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`. What we need to do is just to fill all the letters into the formula above to make the eqautin hold, of course all the letter should be unique.
 
-There is a natural consideration to solve this problem by using the **permutations**.
+There is a natural consideration to solve this problem by using the **full permutations**. If we can give out all the possible permutations of the number list `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`, then the question comes to verify the "solutions" one by one. 
 ```Python
 import itertools
 import numpy as np
