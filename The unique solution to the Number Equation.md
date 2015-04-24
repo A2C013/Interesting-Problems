@@ -61,3 +61,6 @@ print('\n', 'TIME DURATION: %.2f seconds'.rjust(65, ' ') % TIME_DURATION)
                          84**3 == 576*1029                         
 
                                        TIME DURATION: 67.21 seconds
+```
+                                       
+Then we have to try some more ways to optimize the stupid algorithm, notice that DEF*GHIJ must be more than 100000, then C will be choosen in **`range(3, 10)**`
