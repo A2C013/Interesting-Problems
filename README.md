@@ -24,7 +24,7 @@ I have found lots of interesting problems and always try to figure out the right
 	
 * How to generate n random series with the covariance matrix <img src="http://chart.googleapis.com/chart?cht=tx&chl= \Sigma" style="border:none;"> (using [Cholesky decomposition] (http://en.wikipedia.org/wiki/Cholesky_decomposition))
 
-* **Floyd Algorithm** to calculate the shortest path between two vertexes in a *directed graph*.
+* **[Floyd Algorithm](http://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)** to calculate the shortest path between two vertexes in a *[directed graph](http://en.wikipedia.org/wiki/Directed_graph)*.
 
 	
 
