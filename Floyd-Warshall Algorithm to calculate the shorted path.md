@@ -10,7 +10,7 @@ Let's see a simple case:
 import numpy as np
 
 M = np.inf
-
+## initializing the weighted adjacent matrix **origD**
 origD = np.array([[-1, 1, 5, 12],
                   [M, -1, 3, M],
                   [M, M, -1, 7],
